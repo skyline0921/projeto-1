@@ -1,0 +1,112 @@
+*{
+  margin: 0;  
+  padding: 0;
+}
+
+p{
+    color: rgba(54, 50, 50, 0.966);
+}
+
+strong{
+    color: rgba(0, 0, 0, 0.596);
+}
+
+
+#caixa{
+    height: auto;
+    width: 600px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.drawers{
+    display: flex;
+    justify-content: left;
+ 
+}
+
+.conteudo{
+    padding: 15px;
+}
+
+.imgmesa{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.michelle{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+
+}
+
+.info-person{
+    display: flex;
+}
+
+.imgM{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#caixa2{
+    background-color: hsl(210, 46%, 95%);
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#caixa2 > img{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    z-index: 100;
+    
+}
+
+.Pa{
+    padding: 5px;
+    color: hsl(214, 17%, 51%);
+}
+
+.Pb{
+    padding: 5px;
+    color: hsl(217, 19%, 35%);
+}
+
+.Pc{
+    padding: 5px;
+}
+
+.text{
+    background-color: hsl(217, 19%, 35%);
+    width: 150px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    right: -80px;
+    top: -30px;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#text1{
+    color: hsl(210, 46%, 95%);
+}
+
+#circulo{
+    height: 25px;
+    width: 25px;
+    background-color: #6d7e96;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+}
